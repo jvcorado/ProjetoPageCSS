@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+  
 }
 .container-cabecalho{
     width: 100vw;
@@ -25,7 +29,6 @@
     justify-content: space-around;
     font-size: 1.5rem;
     font-weight: bold;
-    
 }
 .container{
     background-color: #0D1249;
@@ -35,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .container-apresentacao{
     align-self: flex-start;
@@ -71,5 +75,6 @@ button{
     font-size: 1.4rem;
     font-weight: bold;
     cursor: pointer;
+
 
 }
