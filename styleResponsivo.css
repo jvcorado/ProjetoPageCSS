@@ -1,0 +1,41 @@
+@media (max-width:500px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .menu{
+        margin-top: 20px;
+        width: 100%;
+    } 
+    .container-apresentacao{
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        margin-top: 250px;
+    }
+    .container-apresentacao h1{
+        font-size: 3rem;
+        width: 100%;
+        margin: 0;
+    } 
+    .container-apresentacao p{
+        margin-top: 30px;
+        font-size: 1.8rem;
+    } 
+    .botao-container{
+       
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    button{
+        background-color: antiquewhite;
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+        
+    }
+}
+

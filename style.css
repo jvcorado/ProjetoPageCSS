@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-cabecalho{
+    width: 100vw;
+}
+.cabecalho{
+    color: white;
+    background-color: #0D1249;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.container{
+    background-color: #0D1249;
+    color: white;
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-apresentacao{
+    align-self: flex-start;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.container-apresentacao h1{
+    margin: auto;
+    width: 60%;
+    font-size: 6rem;
+}
+.container-apresentacao p{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.botao-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    width: 250px;
+    height: 70px;
+    margin:30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
