@@ -130,7 +130,7 @@
         margin-right: 0;
     }
     .container-ferramentas{
-       width: 80%;
+       width: 100%;
        flex-direction: column-reverse;
        
     }
