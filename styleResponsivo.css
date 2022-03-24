@@ -12,7 +12,7 @@
     .container-apresentacao{
         width: 100%;
         padding: 20px;
-        margin-top: 600px;
+        margin-top: 150px;
     }
     .container-apresentacao h1{
         font-size: 3rem;
@@ -41,6 +41,25 @@
     }
     .container-img img{
         width: 100%;
+    }
+    .container-conteudo{
+
+    }
+    .conteudo{
+        margin:0;
+        width: 70%;
+    }
+    .card{
+        margin: 50px;
+        width: 100%;
+        
+    }
+    .card h1{
+        font-size: 3rem;
+    }
+    .card p{
+        font-size: 1rem;
+       
     }
 }
 
