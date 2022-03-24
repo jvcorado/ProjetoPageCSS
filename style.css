@@ -8,6 +8,12 @@
     font-weight: 600;
   
 }
+h1{
+    font-size: 6rem;
+}
+p{
+    font-size: 1.5rem;
+}
 .container-cabecalho{
     width: 100vw;
 }
@@ -21,6 +27,10 @@
     padding: 30px;
     position: fixed;
     top: 0;
+    border-bottom: 3px solid white;
+}
+.logo{
+    font-size: 3rem;
 }
 .menu{
     width: 40%;
@@ -30,6 +40,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    
 }
 .container{
     background-color: #0D1249;
@@ -191,7 +202,7 @@
     flex-direction: column;
     align-items: center;
     color: rgb(255, 255, 255);
-    padding-bottom: 50px;
+
 }
 .conteudoCard{
     width: 80%;
@@ -202,24 +213,30 @@
 .conteudoCard p{
     font-size: 1.2rem;
  }
- .contCard{
-   margin-top: 50px;
+.contCard{
+    margin-top: 50px;
     width: 40%;
     margin-bottom: 20px;
-    border-radius: 15px;
+    
  }
 .cardCont-container{
     display:flex;
     width: 80%;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .cardCont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     color: white;
     width: 50%;
     height: 400px;
     margin-right: 20px;
     text-align: left;
-    padding: 20px;    
+    padding: 20px; 
+    border-radius: 20px;   
 
 }
 .cardCont:hover{
@@ -234,4 +251,15 @@
 .cardCont p{
     font-size: 1rem;
 
+}
+.container-ferramentas{
+    color: rgb(255, 255, 255);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+.conteudo-ferramentas{
+    width: 40%;
 }
