@@ -29,6 +29,7 @@
     justify-content: space-around;
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 .container{
     background-color: #0D1249;
@@ -66,7 +67,7 @@
     justify-content: center;
     
 }
-button{
+.btn{
     width: 250px;
     height: 70px;
     margin:30px;
@@ -75,6 +76,26 @@ button{
     font-size: 1.4rem;
     font-weight: bold;
     cursor: pointer;
-
-
+    background-color: transparent;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn-especial{
+    background-color: #666db1;
+}
+.btn-especial:hover{
+    opacity: 80%;
+    background-color: #666db1;
+    color: white;
+}
+.container-img{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+.container-img img{
+    width: 40%;
 }
