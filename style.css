@@ -164,7 +164,7 @@
     justify-content:center;
     text-align: center;
     padding: 30px;
-    color: black;
+   
 }
 .container-teste-gratis h1{
     font-size: 6rem;
@@ -181,6 +181,53 @@
     background-color: transparent;
     cursor: pointer;
     margin-top: 30px;
+    color: white;
 }
+.container-conteudoCard{
+    background-color:#EDF2F7;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding-bottom: 50px;
+}
+.conteudoCard{
+    width: 80%;
+}
+.conteudoCard h1{
+   font-size: 6rem;
+}
+.conteudoCard p{
+    font-size: 1.2rem;
+ }
+ .contCard{
+    width: 40%;
+    margin-bottom: 20px;
+ }
+.cardCont-container{
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.cardCont{
+    width: 50%;
+    height: 400px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    padding: 20px;
+}
+.cardCont:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+.cardCont h1{
+    font-size: 3rem;
+}
+.cardCont p{
+    font-size: 1rem;
 
-
+}

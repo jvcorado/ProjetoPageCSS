@@ -82,22 +82,42 @@
         width: 100%;
     }
     .container-teste-gratis{
-       
         height: 500px;
-     
     }
     .container-teste-gratis h1{
         font-size: 4rem;
+        color: white;
     }
     .container-teste-gratis p{
         font-size: 1.3rem;
-        color: white;
+       
     }
     .container-teste-gratis button{
         width: 300px;
         height: 100px;
         font-size: 1.5rem; 
-        color: white; 
+         
+    }
+    .cardCont-container{
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+    }
+    .conteudoCard h1{
+        text-align: left;
+        font-size: 3rem;
+     }
+     .conteudoCard p{
+         font-size: 1rem;
+      }
+    .contCard{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cardCont{
+        width: 80%;
+        margin-right: 0;
     }
     
 
