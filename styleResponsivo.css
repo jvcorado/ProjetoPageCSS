@@ -42,24 +42,45 @@
     .container-img img{
         width: 100%;
     }
-    .container-conteudo{
-
-    }
     .conteudo{
         margin:0;
-        width: 70%;
+        width: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+       background-color: rgb(255, 255, 255);
+
     }
     .card{
-        margin: 50px;
-        width: 100%;
-        
+        margin: 0px;
+        width: 80%;  
+        height: 500px; 
     }
     .card h1{
         font-size: 3rem;
     }
     .card p{
         font-size: 1rem;
+    }
+    .card-img{
+        width: 100%;
+        
        
     }
+    .card-img img{
+        width: 100%;
+    }
+   
+    .container-subconteudo h1{
+        font-size: 3rem;
+      
+    }
+    .container-subconteudo p{
+        font-size: 1rem;
+       
+    }
+    .container-subconteudo img{
+        width: 100%;
+    }
+
 }
 
