@@ -37,6 +37,7 @@
     width: 100vw;
     height: 900px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -44,12 +45,13 @@
 .container-apresentacao{
     align-self: flex-start;
     width: 100%;
-    height: 550px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 600px;
+    background-color: aqua;
     
 }
 .container-apresentacao h1{
@@ -98,4 +100,7 @@
 }
 .container-img img{
     width: 40%;
+}
+.container-conteudo{
+    background-color: aquamarine;
 }
