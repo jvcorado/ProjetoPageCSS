@@ -15,43 +15,13 @@ h1{
 p{
     font-size: 1.3rem;
 }
-.container-cabecalho{
-    width: 100vw;
-}
 .cabecalho{
-    color: white;
-    background-color: #0D1249;
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    justify-content: space-around;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    border-bottom: 3px solid white;
 }
-.logo{
-    font-size: 3rem;
-    color: #666db1;
-}
-.menu{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.3rem;
-    font-weight: bold;
-    cursor: pointer;
-    
-}
-.menu a{
-    color: white;
-    text-decoration: none;
-}
-.menu a:hover{
-    color: #666db1;
-}
-.container{
+
+
+
+.container-cont{
     background-color: #0D1249;
     color: white;
     width: 100%;
@@ -88,7 +58,7 @@ p{
     justify-content: center;
     
 }
-.btn{
+.btn-btn{
     width: 250px;
     height: 70px;
     margin:30px;
@@ -100,7 +70,7 @@ p{
     background-color: transparent;
     color: white;
 }
-.btn:hover{
+.btn-btn:hover{
     background-color: white;
     color: black;
 }
@@ -167,7 +137,7 @@ p{
 }
 .container-teste-gratis{
     width: 100%;
-    background-image: url(../ProjetoPageCSS/6271875.jpg);
+    background-image: url(../img/6271875.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
