@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +10,10 @@
   
 }
 h1{
-    font-size: 6rem;
+    font-size: 4rem;
 }
 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .container-cabecalho{
     width: 100vw;
@@ -23,24 +24,32 @@ p{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
+    padding: 20px;
     position: fixed;
     top: 0;
     border-bottom: 3px solid white;
 }
 .logo{
     font-size: 3rem;
+    color: #666db1;
 }
 .menu{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
     
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #666db1;
 }
 .container{
     background-color: #0D1249;
@@ -61,17 +70,17 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 150px;
     
 }
 .container-apresentacao h1{
     margin: auto;
     width: 60%;
-    font-size: 6rem;
+
 }
 .container-apresentacao p{
     margin-top: 30px;
-    font-size: 2rem;
+
 }
 .botao-container{
     display: flex;
@@ -133,12 +142,7 @@ p{
     margin: 20px;
     padding: 30px;
 }
-.card h1{
-    font-size: 6rem;
-}
-.card p{
-    font-size: 2rem;
-}
+
 .card-img{
     align-self: center;
 }
@@ -152,11 +156,9 @@ p{
     padding: 30px;
 }
 .container-subconteudo h1{
-    font-size: 6rem;
     color: black;
 }
 .container-subconteudo p{
-    font-size: 2rem;
     font-weight: 200;
     color: black;
 }
@@ -177,12 +179,7 @@ p{
     padding: 30px;
    
 }
-.container-teste-gratis h1{
-    font-size: 6rem;
-}
-.container-teste-gratis p{
-    font-size: 2rem;
-}
+
 .container-teste-gratis button{
     width: 400px;
     height: 100px;
@@ -207,12 +204,7 @@ p{
 .conteudoCard{
     width: 80%;
 }
-.conteudoCard h1{
-   font-size: 6rem;
-}
-.conteudoCard p{
-    font-size: 1.2rem;
- }
+
 .contCard{
     margin-top: 50px;
     width: 40%;
@@ -251,6 +243,10 @@ p{
 .cardCont p{
     font-size: 1rem;
 
+}
+.img-card{
+    width:30%;
+    margin: 20px;
 }
 .container-ferramentas{
     color: rgb(255, 255, 255);
